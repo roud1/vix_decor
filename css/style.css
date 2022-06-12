@@ -200,6 +200,7 @@ svg:hover circle {
  }
 
 .section-working{
+    padding-top: 58px;
     padding-bottom: 90px;
     display: flex;
     background-image: url('../img/background.png');
