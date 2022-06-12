@@ -12,14 +12,29 @@ font-family: 'Playfair Display', serif;
 body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background-image: url('../img/bg.png');
-    background-size: auto;
-    background-repeat: no-repeat;
     color: white;
+}
+
+.header{
+    position: absolute;
+    width: 100%;
+}
+
+.section-header{
+    padding: 31px 0;
+    margin: 0 auto;
+    max-width: 1250px;
 }
 
 .section{
     padding: 31px 0;
+    margin: 0 auto;
+    background-image: url('../img/bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.main-section{
     margin: 0 auto;
     max-width: 1250px;
 }
@@ -43,6 +58,11 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.container-wide{
+    margin: 0 auto;
+    max-width: 1250px;
 }
 
 .nav{
@@ -248,12 +268,6 @@ svg:hover circle {
 
 }
 
-.article-title {
-}
-
-.article-subtitle {
-}
-
 .article-img {
     margin-left: 76px;
     display: grid;
@@ -287,7 +301,11 @@ svg:hover circle {
     grid-area: 2 / 2 / 3 / 3;
 }
 
-
+.heights{
+    display: block;
+    max-width: 1920px;
+    margin: 0 auto;
+}
 
 .d-flex{
     display: flex;
@@ -356,7 +374,6 @@ svg:hover circle {
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    color: black;
 }
 
 .row {
@@ -398,14 +415,6 @@ svg:hover circle {
     grid-column-gap: 5px;
     grid-row-gap: 10px;
 }
-
-
-
-
-
-
-
-
 
 .option-title {
     font-family: 'Playfair Display', serif;
@@ -453,4 +462,229 @@ svg:hover circle {
     margin-top: 95px;
 }
 
+.people-love {
+    background-position-y: 40px;
+    margin: 0 auto;
+    padding-top: 32px;
+    padding-bottom: 708px;
+    max-width: 1440px;
+    background-image: url('../img/horse-light.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: black;
+}
+
+.people-row{
+    display: flex;
+}
+
+.people-love-title {
+    position: relative;
+    margin-top: 35px;
+    margin-left: 565px;
+    font-family: 'Playfair Display', serif;
+    max-width: 338px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 67px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.people-love-title:after{
+    position: absolute;
+    left: 80%;
+    margin-top: 54px;
+    transform: rotate(90deg);
+    content: "";
+    width: 193px;
+    border: 1px solid rgba(99, 83, 67, 0.5);
+}
+
+.people-love-text {
+    margin-top: 57px;
+    max-width: 283px;
+    margin-left: 50px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+.section-product {
+    max-width: 1240px;
+    padding-top: 108px;
+    padding-bottom: 98px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.section-product-title {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 67px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.product-wrapper {
+    display: flex;
+    margin-top: 52px;
+
+}
+
+.product-link {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.product-img {
+    display: block;
+}
+
+.product-title {
+    position: relative;
+    margin-top: 19px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.product-title:before{
+    position: absolute;
+    top: 120%;
+    transform: translateY(-50%);
+    display: block;
+    content: "";
+    width: 96px;
+    border: 1px solid rgba(99, 83, 67, 0.5);
+}
+
+.product-price {
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.price {
+    margin-top: 6px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.footer {
+    padding-top: 38px;
+    padding-bottom: 79px;
+    background-image: url('../img/footer.png');
+}
+
+.section-footer{
+    margin: 0 auto;
+    max-width: 1255px;
+}
+
+.footer-row {
+    display: flex;
+}
+
+.footer-title {
+    margin-left: 7px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 67px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.footer-nav{
+    margin-left: 63px;
+}
+
+.footer-text {
+    margin-top: 11px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.footer-nav-location{
+    margin-top: 50px;
+}
+
+.footer-location{
+    padding-left: 30px;
+    position: relative;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-location::before{
+    display: block;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 45%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/footer-location.svg);
+    background-size: contain;
+}
+
+.footer-nav-phone{
+    margin-top: 20px;
+}
+
+.footer-phone{
+    padding-left: 30px;
+    position: relative;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-phone::before{
+    display: block;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 45%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/footer-phone.svg);
+    background-size: contain;
+}
+
+.footer-social {
+    display: flex;
+    margin-top: 58px;
+    width: 36px;
+    height: 36px;
+
+}
+
+.footer-img {
+    margin: -5px 19px 0;
+    width: 46px;
+    height: 46px;
+}
 
