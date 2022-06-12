@@ -182,6 +182,10 @@ body{
     color: black;
 }
 
+.heights-img{
+    max-width: 100%;
+}
+
 .button {
     text-align: center;
     margin: 165px auto 106px auto;
