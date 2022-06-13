@@ -18,6 +18,7 @@ body{
 .header{
     position: absolute;
     width: 100%;
+    z-index: 2;
 }
 
 .section-header{
@@ -34,7 +35,51 @@ body{
     background-repeat: no-repeat;
 }
 
+.bg-carousel-1{
+    padding: 31px 0;
+    margin: 0 auto;
+    background-image: url('../img/bg-1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.bg-carousel-2{
+    padding: 31px 0;
+    margin: 0 auto;
+    background-image: url('../img/bg-2.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.bg-carousel-3{
+    padding: 31px 0;
+    margin: 0 auto;
+    background-image: url('../img/bg-3.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.owl-dots{
+    position: absolute;
+    bottom: 80px;
+    width: 100%;
+}
+
+.owl-dot{
+    display: inline-block;
+    margin: 7px;
+}
+
+.owl-dot span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+}
+
 .main-section{
+    padding-top: 45px;
     margin: 0 auto;
     max-width: 1250px;
 }
@@ -310,6 +355,9 @@ svg:hover circle {
     display: block;
     max-width: 1920px;
     margin: 0 auto;
+    background-image: url('../img/heights.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .d-flex{
@@ -518,6 +566,7 @@ svg:hover circle {
 }
 
 
+
 .section-product {
     max-width: 1240px;
     padding-top: 108px;
@@ -588,7 +637,10 @@ svg:hover circle {
 .footer {
     padding-top: 38px;
     padding-bottom: 79px;
+    background-color: #F8F8F8;;
     background-image: url('../img/footer.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .section-footer{
