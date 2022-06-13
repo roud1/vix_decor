@@ -1,12 +1,4 @@
 $(document).ready(function(){
-
-    $('.slider').bxSlider({
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        pager: false
-    });
-
     $('.owl-carousel').owlCarousel({
 
         loop:true,
@@ -25,4 +17,11 @@ $(document).ready(function(){
             }
         }
     });
+});
+
+$('.slider').bxSlider({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    pager: false
 });
