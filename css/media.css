@@ -1,0 +1,180 @@
+@media (max-width: 1350px){
+    .logo::before{
+        display: none;
+    }
+    .section{
+        background-size: 100%;
+    }
+    .section{
+        background-image: url('../img/background-adaptive.png');
+        background-size: cover;
+    }
+    .bg-carousel-1{
+        display: none;
+    }
+    .bg-carousel-2{
+        display: none;
+    }
+    .bg-carousel-3{
+        display: none;
+    }
+    .owl-item.cloned{
+        display: none !important;
+    }
+    .owl-stage{
+        transform:none !important;
+        transition: none !important;
+        width: auto !important;
+    }
+    .owl-dots{
+        display: none;
+    }
+    .main_content{
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 1160px){
+    .info-img{
+        display: none;
+    }
+    .section-working{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .article-img{
+        margin-top: 50px;
+    }
+    .section-info{
+        justify-content: center;
+    }
+    .info-row{
+        justify-content: center;
+    }
+    .info-title{
+        margin-left: -80px;
+    }
+    .info-subtext{
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+    .people-love-title:after{
+        margin-top: -14px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .nav{
+        display: none;
+    }
+    .nav-button{
+        display: block;
+    }
+    .mobile-nav-active{
+        display: block;
+    }
+    .article-img{
+        margin-left: 5px;
+    }
+    .section-options{
+        flex-wrap: wrap;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    .option-img{
+        max-width: 100%;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .all-options{
+        margin-left: 170px;
+        display: block;
+    }
+    .mt-170{
+        margin-top: 20px;
+    }
+    .mt-95{
+        margin-top: 20px;
+    }
+    .people-love{
+        background-image: none;
+        padding-bottom: 0;
+    }
+    .people-love-title{
+        margin-left: 35px;
+    }
+    .people-love-title:after{
+        left: 70%;
+    }
+    .section-product-title:after{
+        display: none;
+    }
+    .section-product-title:before{
+        display: none;
+    }
+}
+
+
+@media (max-width: 320px){
+    .main_title{
+        font-size: 60px;
+    }
+    .main_btn{
+        margin-left: 40px;
+    }
+    .section-working{
+        margin-left: 25px;
+    }
+    .article-text::before{
+        left: 100px;
+        top: -115px;
+    }
+    .article-img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mt-1{
+        margin-top: 0;
+    }
+    .info-margin{
+        margin-left: 100px;
+    }
+    .info-text{
+        margin-left: -70px;
+    }
+    .info-subtext{
+        margin-left: -70px;
+    }
+    .section-options{
+        margin-top: -90px;
+        margin-right: 18px;
+    }
+    .all-options{
+        margin-left: 20px;
+    }
+    .option-title{
+        margin-left: 60px;
+    }
+    .people-row{
+        flex-wrap: wrap;
+    }
+    .mt-170{
+        margin-top: 20px;
+    }
+    .mt-110{
+        margin-top: 20px;
+    }
+    .people-love-text{
+        margin-left: 30px;
+    }
+    .people-love-title:after{
+        display: none;
+    }
+    .section-product-title{
+        text-align: center;
+    }
+}
+
+
