@@ -62,8 +62,7 @@ body{
 
 .owl-dots{
     position: absolute;
-    width: 100%;
-    writing-mode: vertical-rl;
+    writing-mode: vertical-lr;
     bottom: 350px;
 }
 
@@ -82,7 +81,7 @@ body{
     position: absolute;
     transform: rotate(90deg);
     top: 62px;
-    right: 48px;
+    left: 38px;
     content: "";
     width: 27px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -91,7 +90,7 @@ body{
     position: absolute;
     transform: rotate(90deg);
     top: 129px;
-    right: 48px;
+    left: 38px;
     content: "";
     width: 27px;
     border: 1px solid rgba(255, 255, 255, 0.3);
